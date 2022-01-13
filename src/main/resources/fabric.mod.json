@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "BetterBlockEntities",
+  "version": "${version}",
+  "name": "BetterBlockEntities",
+  "description": "A few... interesting changes to block entities",
+  "authors": [
+    "s0vi_"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/BetterBlockEntities/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.s0vi.betterblockentities.client.BetterBlockEntitiesClient"
+    ],
+    "main": [
+      "me.s0vi.betterblockentities.BetterBlockEntities"
+    ]
+  },
+  "mixins": [
+    "BetterBlockEntities.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
