@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "BetterBlockEntities",
+  "id": "betterblockentities",
   "version": "${version}",
   "name": "BetterBlockEntities",
   "description": "A few... interesting changes to block entities",
@@ -17,6 +17,9 @@
     ],
     "main": [
       "me.s0vi.betterblockentities.BetterBlockEntities"
+    ],
+    "modmenu": [
+      "me.s0vi.betterblockentities.client.ModMenuIntegration"
     ]
   },
   "mixins": [

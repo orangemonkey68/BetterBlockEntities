@@ -39,12 +39,12 @@ public class ModConfig implements ConfigData {
             this.whitelist = whitelist;
         }
 
-        public List<Identifier> getBlocks() {
-            return blocks;
+        public List<String> getBlockIds() {
+            return blockIds;
         }
 
-        public void setBlocks(List<Identifier> blocks) {
-            this.blocks = blocks;
+        public void setBlockIds(List<String> ids) {
+            this.blockIds = ids;
         }
     }
 }

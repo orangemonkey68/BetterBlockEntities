@@ -14,8 +14,6 @@ public class BetterBlockEntities implements ModInitializer {
     @Override
     public void onInitialize() {
         AutoConfig.register(ModConfig.class, GsonConfigSerializer::new);
-
-        RegistryEntryRemovedCallback
     }
 
     public static ModConfig getConfig() {
